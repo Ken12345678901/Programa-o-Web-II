@@ -1,0 +1,47 @@
+img.logo{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:150px
+}
+img.fotos{
+    transition: 1s;
+    width:300px
+}
+img.fotos:hover{
+    width:450px;
+    transition: 1s;
+}
+div.container{
+    background-color: aliceblue;
+    padding:20px
+}
+tr{
+    padding: 15px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 2px;
+}
+tr.eventos{
+    background-color: lightslategrey;
+}
+tr.datas{
+    background-color: white;
+}
+table{
+    padding: 15px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 2px;
+}
+th{
+    transition:1s;
+    padding: 15px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 2px;
+}
+th.eventos:hover{
+    background-color: slateblue;
+    transition:1s
+}
